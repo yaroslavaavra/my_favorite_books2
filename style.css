@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #ebbff7;
+}
+h1, h2, h3{
+  color: #600381;
+  text-align: center;
+  text-decoration: underline;
+}
+div{
+  display: flex;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 3px dotted #52027e;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+aside{
+  width: 60%;
+}
+span{
+  font-style: italic;
+}
+a{
+  text-decoration: none;
+  background-color: #d987f7;
+  border:2px solid #8a029d;
+  color: #38014b;
+  width: 40%;
+  padding: 5px;
+}
